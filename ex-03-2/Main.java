@@ -1,10 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        int age1 = 3;
-        if (age1 % 2 == 1) {
-            System.out.println("うわあ");
-        } else {
-            System.out.println("わあ");
+        System.out.println("数当てゲーム");
+
+        int ans = new java.util.Random().nextInt(9);
+        for (int i = 0; i < 5; i++) {
+            ;
+            System.out.println("0~9の数字を入力してください");
+            int num = new java.util.Scanner(System.in).nextInt();
+            if (num == ans) {
+                System.out.println("アタリ！");
+            } else
+                System.out.println("違います");
         }
+        System.out.println("ゲームを終了します");
     }
 }
