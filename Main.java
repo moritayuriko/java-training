@@ -15,7 +15,7 @@ public class Main {
         //呼び出されたのは2個目の方
         //ここでどっちも25を得ている？
         heal(baseHp);
-       //↑が動いてない！っぽい。
+       //↑が動いてない！っぽい?
         System.out.println(baseHp+":"+t.hp);
         //25:25
         heal(t);
