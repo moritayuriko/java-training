@@ -9,9 +9,11 @@ public class PoisonMatango extends Matango {
     
     System.out.println("さらに毒胞子をばらまいた！");
     this.tekimp-=1;
-    h.hp=h.hp/5;
+    //計算以外で勝手にヒーローのHPとかよそのHPを書き換えない！
+    int damege=h.hp/5;
+    h.hp-=damege;
 
-     System.out.println(h.hp+"ポイントのダメージ!");
+     System.out.println(damege+"ポイントのダメージ!");
 }
     
 
