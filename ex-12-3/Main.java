@@ -4,10 +4,9 @@ public class Main {
         z[0] = new A();
         z[1] = new B();
         for (Y roop : z) {
-        // for(int i=0;i<b.length;i++){
-           roop.b();
-
+            // for(int i=0;i<b.length;i++){
+            // z[i].b()
+            roop.b();
         }
     }
-
-    }
+}
