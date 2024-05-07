@@ -14,7 +14,3 @@ public class Main {
 
     }
 }
-
-// int[]s=new int[5];
-// int num =s.length;
-// System.out.println("要素の数は"+num);
